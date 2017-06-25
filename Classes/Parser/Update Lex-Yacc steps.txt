@@ -1,0 +1,61 @@
+Back up exiting files
+
+Update lexer/parser in ~/Lex directory and test
+
+Copy lex.yy.c and/or y.tab.c as appropriate
+
+Changes to y.tab.c:
+
+1) comment out the main method
+
+2) the error method should call the custom error method in objective C parser object:
+
+	extern void myErrorFunction(const char *str);	
+
+	void yyerror(const char *str)
+	{
+		myErrorFunction(str);
+	}
+
+3) change the type of the "a_tree" variable in the results structure from "char back to "tree"
+   (for some reason the command line c compiler cannot find the declaration when needed)
+
+OLD:
+#line 73 "parseTree.y"
+{
+   int a_number;
+   char a_variable;
+   char *a_tree;
+}
+
+NEW:
+#line 73 "parseTree.y"
+{
+   int a_number;
+   char a_variable;
+   tree *a_tree;
+}
+
+4) Add the "set tree" call when "print tree" is called (and remove "print tree" at some point)
+
+OLD:
+
+#line 86 "parseTree.y"
+    {printtree ((yyvsp[(2) - (3)].a_tree), 1);}
+    break;
+
+  case 3:
+#line 88 "parseTree.y"
+    {printtree ((yyvsp[(1) - (2)].a_tree), 1);}
+    break;
+
+NEW:
+#line 86 "parseTree.y"
+    {printtree ((yyvsp[(2) - (3)].a_tree), 1); extern void setTree(tree *t); setTree((yyvsp[(2) - (3)].a_tree));}
+    break;
+
+  case 3:
+#line 88 "parseTree.y"
+    {printtree ((yyvsp[(1) - (2)].a_tree), 1); extern void setTree(tree *t); setTree((yyvsp[(1) - (2)].a_tree));}
+    break;
+

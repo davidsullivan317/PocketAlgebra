@@ -1,0 +1,8 @@
+* Choose Expression now returns to the table of expressions instead of the main screen when you touch the back button.
+* Enter Expression now returns to the Expression Input Screen instead of the main screen when you touch the back button.
+* Removed some old files
+* Clear button added to the Expression Input Screen
+* Simplified parenthesis in multiplications
+* Fixed a bug in reducing powers where the opposite was being ignored
+* Help icon was missing from the Expression Input screen when called from the Expression List Editor
+* Double tapping in the Expression Editor to transform opposite expression to -1*x form was also asking to revert to previous expression

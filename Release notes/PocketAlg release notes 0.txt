@@ -1,0 +1,18 @@
+Fixed bug and updated unit tests: runTestBefore: @"((xa)/b)((yb)/a)" expected: @"x*a(y/a)
+Added equations tutorial
+Added into help screen text
+Updated expression editor help
+New delete icon in expression list editor
+Intro buttons are now blue
+Navigation bar is now blue
+Removed "save" button on expression editor - back button automatically saves
+Added help icon to the navigation bar in the expression editor
+"About" button is now the "Help" button on the main screen
+Tweaked logic for adding parenthesis in multiplications
+Added help text to the expression input screen
+Numbers entered in the expression input screen are limited to 9 digits.
+If the result of multiplying two numbers is 10 digits or more the multiplication is ignored.
+Expression input screen help text updated to reflect the above.
+Zoom now works in the tutorial
+Help text added to the expression list editor.
+-1*x^2 returns -(x^2)

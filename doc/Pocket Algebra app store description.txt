@@ -1,0 +1,21 @@
+Pocket Algebra is a full-featured application for students learning algebra. Simply touch the symbols in an expression to simplify and solve algebraic problems. 
+
+Pocket Algebra includes a powerful expression editor, where you do your "number crunching." A robust tutorial walks you through everything you need to know to get started. A history of previous steps is available in the editor so you can review or back up to a previous step at any time.
+
+Algebraic features supported include:
+
+1) Integer arithmetic: addition, subtraction, multiplication and division.
+
+2) Exponentials and radicals (i.e. squared and square root).
+
+3) Manipulating equations - add, subtract, divide and multiply both sides of an equation.
+
+4) Any number of variables or constants.
+
+5) Distribution and factorization. 
+
+6) Expression substitution and systems of equations.
+
+Use a calculator-like interface to enter your homework problems. 
+
+You can create and save custom lists of expressions to practice with at any time. Pocket Algebra also includes sample problems that are ready to work.

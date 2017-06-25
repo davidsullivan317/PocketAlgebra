@@ -1,0 +1,15 @@
+* Dropped the reference to "selection via parenthesis" in the tutorial.
+* Dropped "selecting fractions over fractions can be tricky" from the tutorial
+* In the tutorial "If an expression is equivalent to the base of an exponential expression in a multiplication you can multiply them." now reads "You can multiply an exponential expression by its base." 
+* Double-tapping to back up when editing expressions in the tutorial has been disabled.
+* Tweaked the Intro Screen help text; fixed a typo in the Expression List Editor help text. 
+* Blank names are no longer accepted for saved expression lists
+* Clarified the confirmation message when deleting all expressions in the Expression List Editor
+
+* The background on the Expression Input Screen was not properly aligned. 
+* Trying a different look with the Expression Input Screen
+* Fixed bug in Choose Expression where the last entry in the list was missing.
+* In the Expression Editor when selecting all expressions in a list does not remove the existing expressions.
+* Fixed bug where Expression List was not scrolling to the last entry when adding a new expression.
+* Fixed bug where Expression Editor was not displaying the active terms when reverting to a previous expression.
+* Crumpled paper backgrounds

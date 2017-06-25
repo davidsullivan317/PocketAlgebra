@@ -1,0 +1,4 @@
+* Increased the font size on the Expression Input Screen.
+* Sample expression list expanded.
+* Fixed bug where terms of the form n*x where not being swapped if they could not be added.
+* 1/(x^2) can now be transformed to (x^2)^-1

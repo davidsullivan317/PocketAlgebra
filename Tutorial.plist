@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Chapters</key>
+	<array>
+		<dict>
+			<key>ChapterTitle</key>
+			<string>Welcome!</string>
+			<key>Steps</key>
+			<array>
+				<dict>
+					<key>Text</key>
+					<string>Welcome to Pocket Algebra! Before using Pocket Algebra please spend a few minutes working through this tutorial.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Note that this tutorial does not attempt to teach you algebra. If you are unfamiliar with a concept just skip those steps in the tutorial.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>ChapterTitle</key>
+			<string>Selecting Expressions</string>
+			<key>Steps</key>
+			<array>
+				<dict>
+					<key>Text</key>
+					<string>To use Pocket Algebra you need to be able to recognize and select mathematical expressions. Don&apos;t worry - it&apos;s not hard! The best way to learn is to jump right in and do it.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<false/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>The number 1 is the simplest of expressions. Select it by touching the center of the 1.</string>
+					<key>Expression</key>
+					<string>1</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>ROOT</string>
+					<key>SuccessText</key>
+					<string>That&apos;s it!</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>To select an addition you touch the &quot;+&quot; sign. Give it a try.</string>
+					<key>Expression</key>
+					<string>1 + 2</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectPath</key>
+					<string>ROOT</string>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SuccessText</key>
+					<string>Good.</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Subtraction works the same. Select a - b by touching the “-” sign.</string>
+					<key>Expression</key>
+					<string>a - b</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>ROOT</string>
+					<key>SuccessText</key>
+					<string>That&apos;s right.</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>You can select expressions within expressions. Select the number 1 in the addition above.</string>
+					<key>Expression</key>
+					<string>1 + 2</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>.0</string>
+					<key>SuccessText</key>
+					<string>Correct!</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>To unselect an expression touch a blank area of the screen outside the bounds of the expression as a whole. Try selecting and unselecting the one.</string>
+					<key>Expression</key>
+					<string>1 + 2</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>.0</string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Here’s an addition with 3 terms. Touch any of the “+” signs to select the whole expression. </string>
+					<key>Expression</key>
+					<string>1 + 2 + x</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>ROOT</string>
+					<key>SuccessText</key>
+					<string>That&apos;s it!</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Here’s a more complicated addition. Try selecting and unselecting various terms and the addition as a whole.</string>
+					<key>Expression</key>
+					<string>x + y - 8 + (-2)</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Now let&apos;s turn to multiplication. Selecting expressions in a multiplication expression is very similar to selecting terms in an addition.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<false/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Select the multiplication by touching the multiplication symbol (the dot). </string>
+					<key>Expression</key>
+					<string>x*y</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>ROOT</string>
+					<key>SuccessText</key>
+					<string>Good.</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Pocket Algebra uses dot notation to show multiplications. In algebra the multiplication symbol is often left out. For example, 4x is understood to be 4 times x.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<false/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Now let’s combine multiplication and addition in an expression. Try selecting and unselecting the various expressions.</string>
+					<key>Expression</key>
+					<string>3*x + 8*y + a*b*c</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Note that expressions can be nested to any level. Swipe left and right to see expressions that are not currently visable.</string>
+					<key>Expression</key>
+					<string>-a + (4 - c)*(x*(y - 1) + 1)</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Now let’s try fractions!</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<false/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>You select a fraction by touching the center of the line separating the numerator and denominator. Give it a try.</string>
+					<key>Expression</key>
+					<string>1/2</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>ROOT</string>
+					<key>SuccessText</key>
+					<string>You got it!</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>To select the numerator or denominator itself, simply select them as you would if they where not part of a fraction. Select the numerator.</string>
+					<key>Expression</key>
+					<string>(x+1)/(c - 4)</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>.0</string>
+					<key>SuccessText</key>
+					<string>Not too hard!</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Now select the denominator.</string>
+					<key>Expression</key>
+					<string>(x+1)/(c - 4)</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>.1</string>
+					<key>SuccessText</key>
+					<string>Right.</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Here is a fraction with ½ in the numerator and a/b in the denominator. Try selecting various expressions. Swipe down to view the numerator.</string>
+					<key>Expression</key>
+					<string>(1/2)/(a/b)</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Now let’s move on to exponents and radicals.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<false/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>An expression in exponential form has a base expression, an exponent, and the exponential expression itself.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<false/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Here is the expression x squared. Select the base expression, the &quot;x&quot;, by touching it.</string>
+					<key>Expression</key>
+					<string>x^2</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>.0</string>
+					<key>SuccessText</key>
+					<string>You got it!</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Now select the exponent, the &quot;2&quot;.</string>
+					<key>Expression</key>
+					<string>x^2</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>.1</string>
+					<key>SuccessText</key>
+					<string>Correct!</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>To select the whole expression, x squared, touch under the 2 near the bottom of the &quot;x&quot;.</string>
+					<key>Expression</key>
+					<string>x^2</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>ROOT</string>
+					<key>SuccessText</key>
+					<string>Well done!</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Now for radicals. Radicals include the square root, cubed root, etc.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<false/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Here is the square root of 4. Are you wondering why there&apos;s a 2 in the upper left?</string>
+					<key>Expression</key>
+					<string>4^(1/2)</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<false/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>When you see the square root of 4 in your book it’s assumed the root is 2, so it’s not written. Pocket Algebra always shows the root so you can select the expression. </string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<false/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>To select the radical, touch the lower left corner of the square root symbol underneath the root. Give it a try.</string>
+					<key>Expression</key>
+					<string>4^(1/2)</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>ROOT</string>
+					<key>SuccessText</key>
+					<string>You got it!</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Now try selecting the root (the 2).</string>
+					<key>Expression</key>
+					<string>4^(1/2)</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>.1.1</string>
+					<key>SuccessText</key>
+					<string>You got it!</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>And now the radicand (the 4).</string>
+					<key>Expression</key>
+					<string>4^(1/2)</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>.0</string>
+					<key>SuccessText</key>
+					<string>Not too hard!</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Finally, let’s look at selecting equations.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<false/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>An equation is an expression that has an equal sign (&quot;=&quot;). The expression above is an equation. Select it by touching the equal sign. </string>
+					<key>Expression</key>
+					<string>3*x^2 + 4*x - 5 = 9</string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string>ROOT</string>
+					<key>SuccessText</key>
+					<string>That&apos;s it!</string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>That’s how you select expressions, and expressions within expressions, in Pocket Algebra! If your expressions get complicated you might want to zoom in. This is useful if you have complicated exponents and roots, which are smaller.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<false/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>ChapterTitle</key>
+			<string>Addition</string>
+			<key>Steps</key>
+			<array>
+				<dict>
+					<key>Text</key>
+					<string>To add two terms in Pocket Algebra simply select one term and then a second term. The two terms will be added together.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>NOTE - if you make a mistake simplifying an expression in the tutorial, simply back up a step and try it again.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Add 2 and 2 by selecting one 2 and then the other. </string>
+					<key>Expression</key>
+					<string>2 + 2</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string>That&apos;s it!</string>
+					<key>SuccessExpression</key>
+					<string>4</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Terms don&apos;t have to be adjacent to add them. Add the 3 and the 1.</string>
+					<key>Expression</key>
+					<string>1 + 2 + 3</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string>You got it.</string>
+					<key>SuccessExpression</key>
+					<string>2 + 4</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Variables can be added if they are the same. Add C and C. </string>
+					<key>Expression</key>
+					<string>c + c</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string>Not bad!</string>
+					<key>SuccessExpression</key>
+					<string>2*c</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Subtraction works the same as addition. Reduce the expression above to 0.</string>
+					<key>Expression</key>
+					<string>3 - 2 - 1</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string>You got it.</string>
+					<key>SuccessExpression</key>
+					<string>0</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Zero will often show up in an addition when simplifying an expression. Remove the zero by adding it to any other term. </string>
+					<key>Expression</key>
+					<string>2*w + 3 + 0 - 2*c</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string>Correct!</string>
+					<key>SuccessExpression</key>
+					<string>2*w + 3 - 2*c</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>If two terms cannot be added Pocket Algebra will swap their positions. Try to add a and b.</string>
+					<key>Expression</key>
+					<string>a + b</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string>Correct! You can use this feature to move terms in an addition.</string>
+					<key>SuccessExpression</key>
+					<string>b + a</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Multiplication terms having an integer and the same variable can be added together. Add 2*x to 3*x. </string>
+					<key>Expression</key>
+					<string>2*x + 3*x</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string>That&apos;s right!</string>
+					<key>SuccessExpression</key>
+					<string>5*x</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Fractions can be added if their denominators are the same. Add the two fractions above.</string>
+					<key>Expression</key>
+					<string>1/b + 2/b</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string>That&apos;s it!</string>
+					<key>SuccessExpression</key>
+					<string>(1 + 2)/b</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>If the denominators are not the same, fractions can be cross-multiplied by selecting one denominator and then the other. Cross-multiply these two fractions.</string>
+					<key>Expression</key>
+					<string>a/b + c/d</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string>That&apos;s right!</string>
+					<key>SuccessExpression</key>
+					<string>(a*d + c*b)/(b*d)</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Complex expression can be added if they are symbolically equivalent. Add these two expressons.</string>
+					<key>Expression</key>
+					<string>x*y^(1/2) + y^(1/2)*x</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string>You got it!</string>
+					<key>SuccessExpression</key>
+					<string>2*x*y^(1/2)</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>ChapterTitle</key>
+			<string>Multiplication</string>
+			<key>Steps</key>
+			<array>
+				<dict>
+					<key>Text</key>
+					<string>Multiplying expressions in Pocket Algebra is very similar to addition - select one expression and then the other and the two expressions will be multiplied together.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Multiply 2 and 2 by selecting one 2 and then the other. </string>
+					<key>Expression</key>
+					<string>2*2</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>That&apos;s it!</string>
+					<key>SuccessExpression</key>
+					<string>4</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Multiplying by zero results in zero, of course. Multiply zero and one of the other expressions to reduce the expression to zero.</string>
+					<key>Expression</key>
+					<string>x^2*0*(a+b)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string></string>
+					<key>SuccessText</key>
+					<string>Well done!</string>
+					<key>SuccessExpression</key>
+					<string>0</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Like addition, if two expressions cannot be multiplied, select one then the other to swap their positions. Give it a try.</string>
+					<key>Expression</key>
+					<string>a*b*c</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Correct.</string>
+					<key>SuccessExpression</key>
+					<string>a*b*c</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Like expressions can be multiplied to create an exponential expression. Multiply x and x to get x squared. </string>
+					<key>Expression</key>
+					<string>x*x</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Correct.</string>
+					<key>SuccessExpression</key>
+					<string>x^2</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Fractions can be multiplied using the same approach. Multiply these two fractions.</string>
+					<key>Expression</key>
+					<string>((2*x)/x)*((a*b)/c)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Correct.</string>
+					<key>SuccessExpression</key>
+					<string>(2*x*a*b)/(x*c)</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Expressions within the multiplication can be moved to the numerator of a fraction by selecting the expression and then the numerator. Move x to the numerator.</string>
+					<key>Expression</key>
+					<string>x*(1/2)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Well done!</string>
+					<key>SuccessExpression</key>
+					<string>(x*1)/2</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>You can multiply exponential expressions to create a single exponential expression. Give it a try.</string>
+					<key>Expression</key>
+					<string>x^2*x^3</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Perfect!</string>
+					<key>SuccessExpression</key>
+					<string>x^(2+3)</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Did you expect x to the fifth? Pocket Algebra does not simplify expressions for you so you have more control in how they are simplified.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<false/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Multiply x squared and x cubed again, then add the terms in the exponent to get x to the fifth.</string>
+					<key>Expression</key>
+					<string>x^2*x^3</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Perfect!</string>
+					<key>SuccessExpression</key>
+					<string>x^5</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>You can multiply an exponential expression by its base. Select one x and then the other x in the example above to try it.</string>
+					<key>Expression</key>
+					<string>x^2*x</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Nice!</string>
+					<key>SuccessExpression</key>
+					<string>x^(2+1)</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>If the exponents of two expressions are the same, select one exponent and then the other to create a single exponential expression.</string>
+					<key>Expression</key>
+					<string>(a+b)^2*x^2</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>That&apos;s it!</string>
+					<key>SuccessExpression</key>
+					<string>((a + b)*x)^2</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>There are many simplifications that can be done within multiplications. Select the 2&apos;s above to cancel them from the expression.</string>
+					<key>Expression</key>
+					<string>(1/2)*2</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Well done!</string>
+					<key>SuccessExpression</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Here&apos;s a more complicated example. Cancel the a&apos;s and the b&apos;s by touching one then the other. Give it a try.</string>
+					<key>Expression</key>
+					<string>(x/(a*b))*c*b*a</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Nicely done!</string>
+					<key>SuccessExpression</key>
+					<string>x*c</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Cancel like expressions in these factions to reduce to the expression to x*y. </string>
+					<key>Expression</key>
+					<string>((x*a)/b) * ((y*b)/a)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Not bad!</string>
+					<key>SuccessExpression</key>
+					<string>x*y</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>In algebra you will often have opposite expression like -b, which means &quot;take the opposite of b.&quot; In Pocket Algebra you can transform these expressions into a multiplication (i.e. -1*b)  by selecting it and then double tapping the selected expression.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SelectEnabled</key>
+					<false/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Select -b then double tap it to create a multiplication.</string>
+					<key>Expression</key>
+					<string>-b</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>You have the idea!</string>
+					<key>SuccessExpression</key>
+					<string>-1*b</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Multiply the expressions above to create an opposite expression.</string>
+					<key>Expression</key>
+					<string>-1*b</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>That&apos;s right!</string>
+					<key>SuccessExpression</key>
+					<string>-b</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>ChapterTitle</key>
+			<string>Simplifying Fractions</string>
+			<key>Steps</key>
+			<array>
+				<dict>
+					<key>Text</key>
+					<string>In Pocket Algebra there are many simplifications that can be performed on fractions. Just select the expressions in the numerator and denominator you wish to simplify!</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>If the numerator and denominator are equivalent, select the numerator and then the denominator (or vice versa) to reduce the fraction to 1. Give it try.</string>
+					<key>Expression</key>
+					<string>x/x</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Perfect!</string>
+					<key>SuccessExpression</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Try it again with a more complicated expression.</string>
+					<key>Expression</key>
+					<string>(a + b)/(a + b)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Correct.</string>
+					<key>SuccessExpression</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>A powerful feature of Pocket Algebra is the ability to factor integers &quot;on the fly.&quot; In fractions this is useful in simplifying integer fractions or simplifying the integers in more complicated fractional expressions.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Select the numerator and then the denominator to simplfy this fraction.</string>
+					<key>Expression</key>
+					<string>2/4</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Right!</string>
+					<key>SuccessExpression</key>
+					<string>1/2</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Reduce this fractional expression to its simplest form. </string>
+					<key>Expression</key>
+					<string>(9*x)/(x*3)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>You have the idea!</string>
+					<key>SuccessExpression</key>
+					<string>3</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>If the numerator is 0 select the numerator and denominator to reduce the fraction to 0. Give it a try.</string>
+					<key>Expression</key>
+					<string>0/(x+3)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Right.</string>
+					<key>SuccessExpression</key>
+					<string>0</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Similarly, if the denominator is 1 use the same approach to remove the 1. Give it a try.</string>
+					<key>Expression</key>
+					<string>x/1</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Perfect!</string>
+					<key>SuccessExpression</key>
+					<string>x</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Expressions of the form 1/x, were x is any expression, can be transformed into an exponential expression via the same gestures. Give it a try.</string>
+					<key>Expression</key>
+					<string>1/x</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Perfect!</string>
+					<key>SuccessExpression</key>
+					<string>x^(-1)</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Pocket Algebra will naturally keep track of the signs when simplifying opposite expressions. See for yourself by simplifying this fraction.</string>
+					<key>Expression</key>
+					<string>-b/b</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>That&apos;s right!</string>
+					<key>SuccessExpression</key>
+					<string>-1</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Exponential expressions can be simplified in a similar manner. Reduce this fraction to x.</string>
+					<key>Expression</key>
+					<string>(x^2)/x</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Well done!</string>
+					<key>SuccessExpression</key>
+					<string>x^(2-1)</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Here&apos;s a more complicated example. Simplify the exponential expressions.</string>
+					<key>Expression</key>
+					<string>2*(x^3)/(y*x^2)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Well done!</string>
+					<key>SuccessExpression</key>
+					<string>2*(x^(3 - 2))/y</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>If the numerator in a fraction is an addition you can create separate fractions for each term. Select the addition and the denominator to see how this works.</string>
+					<key>Expression</key>
+					<string>(a + b)/c</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Nice!</string>
+					<key>SuccessExpression</key>
+					<string>a/c + b/c</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>If the numerator and the denominator are fractions, select them to invert and multiply. Give it a try. (You will need to scroll up and down)</string>
+					<key>Expression</key>
+					<string>(a /b)/(c/d)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Perfect!</string>
+					<key>SuccessExpression</key>
+					<string>(a*d)/(b*c)</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>The approach works the same for mixed fractions. Give it a try with x over c/d.</string>
+					<key>Expression</key>
+					<string>x/(c/d)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Right again!</string>
+					<key>SuccessExpression</key>
+					<string>(x*d)/c</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>ChapterTitle</key>
+			<string>Exponential and Radical Expressions</string>
+			<key>Steps</key>
+			<array>
+				<dict>
+					<key>Text</key>
+					<string>Pocket Algebra has a number of power tools for manipulating exponential and radical expressions. This section walks you through these features.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Expressions having an integer exponent between 2 and 10 can be expanded into a multiplication. Touch the exponent and then the base (or vice versa) to give it a try.</string>
+					<key>Expression</key>
+					<string>x^3</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Right!</string>
+					<key>SuccessExpression</key>
+					<string>x*x*x</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Exponential expressions can be raise to a power. Try it yourself by selecting the 4 and then the 2.</string>
+					<key>Expression</key>
+					<string>(x^2)^4</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Right!</string>
+					<key>SuccessExpression</key>
+					<string>x^(2*4)</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>If the base of an exponential expression is a multiplication, the exponent can be &quot;distributed&quot; across the base. Select the 3 and then the multiplication to give it a try.</string>
+					<key>Expression</key>
+					<string>(a*b*c)^3</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>You have the idea!</string>
+					<key>SuccessExpression</key>
+					<string>a^3*b^3*c^3</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>The exponent can also be &quot;distributed&quot; across a fraction in the base. Select the x and then the fraction to give it a try.</string>
+					<key>Expression</key>
+					<string>(a/b)^x</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>You have the idea!</string>
+					<key>SuccessExpression</key>
+					<string>a^x/b^x</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Simplifying radical expressions uses an approach similar to addition. Select the 2 and then the 4 to find the square root of 4.</string>
+					<key>Expression</key>
+					<string>4^(1/2)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>That&apos;s it!</string>
+					<key>SuccessExpression</key>
+					<string>2</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Pocket Algebra will factor integers &quot;on the fly&quot; when simplifying radicals. Give it a try. </string>
+					<key>Expression</key>
+					<string>12^(1/2)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Correct! Note that 12 = 2*2*3, so Pocket Algebra took the square root of 2*2 leaving the square root of 3.</string>
+					<key>SuccessExpression</key>
+					<string>2*3^(1/2)</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Here&apos;s a more complicated example. Give it a try.</string>
+					<key>Expression</key>
+					<string>648^(1/3)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Correct! Note that 648 = 8*27*3, so Pocket Algebra took the cubed root of 8 (2*2*2) and 27 (3*3*3) leaving the cubed root of 3.</string>
+					<key>SuccessExpression</key>
+					<string>6*3^(1/3)</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>If the expression under the square root symbol is a multiplication, the radical can be &quot;distributed&quot; across the multiplication. Select the 2 and the a*b to try it.</string>
+					<key>Expression</key>
+					<string>(a*b)^(1/2)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Correct! Use this technique to simplify complicated radical expressions.</string>
+					<key>SuccessExpression</key>
+					<string>a^(1/2)*b^(1/2)</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Using the techniques you have learned, simplify this radical to its simplest form. </string>
+					<key>Expression</key>
+					<string>(4*b^2)^(1/2)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Well done!</string>
+					<key>SuccessExpression</key>
+					<string>2*b</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>ChapterTitle</key>
+			<string>Distribution and Factorization</string>
+			<key>Steps</key>
+			<array>
+				<dict>
+					<key>Text</key>
+					<string>Select the x and then the addition to distibute the x into each term of the addition. </string>
+					<key>Expression</key>
+					<string>x*(y + z)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>That&apos;s it!</string>
+					<key>SuccessExpression</key>
+					<string>x*y + x*z</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Conversely, to factor out like expressions in an addition, select one and then the other. Factor out the x in the expression above. </string>
+					<key>Expression</key>
+					<string>x*y + x*z</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Correct.</string>
+					<key>SuccessExpression</key>
+					<string>x*(y + z)</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Additions can be cross-multiplied by repeated distribution. Give it a try by selecting a + b and then c + d.</string>
+					<key>Expression</key>
+					<string>(a + b)*(c + d)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Correct.</string>
+					<key>SuccessExpression</key>
+					<string>(a + b)*c + (a + b)*d</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Repeat the previous example, but continue to distribute expressions until you have a single addition.</string>
+					<key>Expression</key>
+					<string>(a + b)*(c + d)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Correct.</string>
+					<key>SuccessExpression</key>
+					<string>a*c + b*c + a*d + b*d</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Exponential expressions can be factored if the exponents are integers. Give it a try.</string>
+					<key>Expression</key>
+					<string>x^2 + x^3</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Correct.</string>
+					<key>SuccessExpression</key>
+					<string>x^2*(1 + x)</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Similarly, if a term is equivalent to the base of an exponential expression, that term and the base can be factored. Factor out the x.</string>
+					<key>Expression</key>
+					<string>x + x^3</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Exactly!</string>
+					<key>SuccessExpression</key>
+					<string>x*(1 + x^2)</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Integers can be factored out &quot;on the fly.&quot; Factor out the greatest common factor by selecting the 10 and the 15.</string>
+					<key>Expression</key>
+					<string>10*x + 15*y</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Outstanding!</string>
+					<key>SuccessExpression</key>
+					<string>5*(2*x + 3*y)</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>ChapterTitle</key>
+			<string>Equations</string>
+			<key>Steps</key>
+			<array>
+				<dict>
+					<key>Text</key>
+					<string>If one side of an equation is an addition, any term in the addition may be &quot;moved&quot; to the other side of the equation by selected the term and then any expression on the other side of the equation. This is shorthand for adding the opposite term to both sides of the equation.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string> Touch the 3 and then the 0 to &quot;move&quot; the 3 to the other side of the equation.</string>
+					<key>Expression</key>
+					<string>2*x + 3 = 0</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>That&apos;s right!</string>
+					<key>SuccessExpression</key>
+					<string>2*x = -3</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Try it again, this time moving 2*x to the right side of the equation.</string>
+					<key>Expression</key>
+					<string>2*x + 3 = 0</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Nice.</string>
+					<key>SuccessExpression</key>
+					<string>3 = -2*x</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Subtraction work the same - move the 1 to the left side of the equation.</string>
+					<key>Expression</key>
+					<string>2*x + 5 = x - 1</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Well done!</string>
+					<key>SuccessExpression</key>
+					<string>2*x + 5 + 1 = x</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>You can &quot;move&quot; one side of an equation to the other side by selecting the side and then an expression on the other side. </string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Select the 1 and then any expression on the left side of the equation to &quot;move&quot; the 1 to the other side. </string>
+					<key>Expression</key>
+					<string>2*x + 5 = 1</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Well done!</string>
+					<key>SuccessExpression</key>
+					<string>2*x + 5 - 1 = 0</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Here&apos;s a more complicated example. &quot;Move&quot; x + 1 to the right side of the equation.</string>
+					<key>Expression</key>
+					<string>x + 1 = 3*x - 2</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>That&apos;s it!</string>
+					<key>SuccessExpression</key>
+					<string>0 = 3*x - 2 - x - 1</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>You can use the same approach when a side of an equation is a multiplication. This is shorthand for dividing both sides of the equation by the selected expression.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Select the b and then the c to &quot;move&quot; the b to the righthand side of the equation.</string>
+					<key>Expression</key>
+					<string>a*b = c + 1</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Right. Notice the right side has been divided by the selected expression.</string>
+					<key>SuccessExpression</key>
+					<string>a = (c + 1)/b</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Here&apos;s a more complicated example. &quot;Move&quot; a + 3 to the left side of the equation.</string>
+					<key>Expression</key>
+					<string>2*x - 4 = 3*(a + 3)</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Perfect!</string>
+					<key>SuccessExpression</key>
+					<string>(2*x - 4)/(a + 3) = 3</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Fractions use a similar approach. You can &quot;move&quot; the denominator of a fraction to the other side of the equation. This is shorthand for multiplying both sides of the equation by the denominator.</string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Move the 2 to the righthand side of the equation.</string>
+					<key>Expression</key>
+					<string>1/2 = 4*x - 3</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>You got it!</string>
+					<key>SuccessExpression</key>
+					<string>1 = (4*x - 3)*2</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>If the fraction is part of a multiplication you can still &quot;move&quot; the denominator. &quot;Move&quot; the 2 to the righthand side of the equation.</string>
+					<key>Expression</key>
+					<string>y*(1/2) = 4*x - 3</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Well done.</string>
+					<key>SuccessExpression</key>
+					<string>y = (4*x - 3)*2</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>If the denominator is a multiplication you can &quot;move&quot; one of the multiplicands in the denominator. &quot;Move&quot; x to the righthand side.</string>
+					<key>Expression</key>
+					<string>1/(x*y) = 3*y</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>Right!</string>
+					<key>SuccessExpression</key>
+					<string>1/y = 3*y*x</string>
+				</dict>
+				<dict>
+					<key>Text</key>
+					<string>Finally, if the numerator is a multiplication you may &quot;move&quot; the multiplicands. Move x to the righthand side.</string>
+					<key>Expression</key>
+					<string>(x*y)/2 = 6</string>
+					<key>EditEnabled</key>
+					<true/>
+					<key>SelectEnabled</key>
+					<true/>
+					<key>SelectPath</key>
+					<string> </string>
+					<key>SuccessText</key>
+					<string>That&apos;s it!</string>
+					<key>SuccessExpression</key>
+					<string>y/2 = 6/x</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>ChapterTitle</key>
+			<string>Other Features</string>
+			<key>Steps</key>
+			<array>
+				<dict>
+					<key>Text</key>
+					<string>Please read through the help text where available in the application. These documents cover important features such as entering expressions, working with expression lists, systems of equations and other expression editing capabilities. </string>
+					<key>Expression</key>
+					<string></string>
+					<key>EditEnabled</key>
+					<false/>
+					<key>SuccessText</key>
+					<string></string>
+					<key>SuccessExpression</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

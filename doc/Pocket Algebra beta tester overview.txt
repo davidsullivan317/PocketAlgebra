@@ -1,0 +1,57 @@
+Thanks for helping with Pocket Algebra! I do appreciate it. 
+
+Here's a brief overview of the app:
+
+Pocket Algebra is a tool for helping math students learn algebra. While it doesn't teach algebra, it can be used to do homework and prepare for tests. The key features include:
+
+* Full support for integer arithmetic: addition, subtraction, multiplication and division
+* Powers and radicals (i.e. squared and square root) are supported
+* Any number of variables and/or constants can be used
+* Equations!
+* The ability to enter ad hoc equations and expressions using a calculator-like interface
+* A powerful expression editor - this is where you do most of your "number crunching"
+* The ability to see and back up to previous steps when evaluating expressions
+* The ability to create and save list of expressions
+* Expression substitution and systems of equations
+* Sample problems that are ready to work
+* A robust tutorial
+* Help text on all key screens
+
+If you're still interested, here's what you need to do:
+
+1) Sign up to become a software tester and install the software:
+
+I'll send you an email from Test Flight, the beta testing site I'm using. ON YOUR APPLE DEVICE bring up the email, click the "Accept" button and fill out the registration. DO NOT check the "I am a developer" option at the bottom. You will be prompted to register your device.
+
+I need to authorized your device, which will take a bit. Once I do you will receive another email Test Flight letting you know the software is ready to install. Here's how to install it:
+
+1) ON YOUR DEVICE bring up the second email and touch the "Install" button. 
+2) You'll redirect to a website to initiate the install. Do so. 
+3) You'll get the message "testflightapp.com would like to install "PocketAlg"". Touch the "Install button."
+4) You'll be prompted to confirm the installation of a "profile." Don't worry about this - just touch "install now" button, after which you'll be prompted for your device passcode (this is the number you use to unlock it). Enter your passcode and the Test Flight app will install. Touch "Done."
+
+If you are having problems send me an email.
+
+2) Provide feedback:
+
+While comments such as "this rocks!" or "you're a genius!" will forever endear you to me, that's not what I'm after. What do you like about the app? What don't you like and why? If it was yours, how would you change it?
+
+Here are some examples of useful feedback:
+
+* The user interface is too dark
+* In general I liked the animation, but I don't get why the buttons are bouncing in the main screen.
+* Selecting expressions was intuitive
+* I had trouble selecting exponential expressions
+* Why isn't such-and-such supported?
+* Typos and other bone-headed errors
+* Bugs and crashes - try to describe what you were doing when it occurred. 
+* etc. 
+
+And most importantly…. math errors! Hiss. She's pretty much dead in the water if there are non-trivial math errors, so try to break it. I dare you! :-) If you spot one PLEASE note the expression and what you were doing and send me the details. 
+
+I'd also like your thoughts on pricing. What's it worth to you? How much would you pay for an app like this?
+
+3) Collect your pay and benefits! 
+
+You will receive $0.00/hour for your time and effort, but I'm willing to double that rate if that gets you to pull the trigger. I will give you a free copy of the production software if the Apple Gods allow me to do so. Not sure on this, however… 
+

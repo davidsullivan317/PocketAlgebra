@@ -1,0 +1,4 @@
+* Fixed a bug where deleting an expression in the Expression List Editor left the deleted expression selected
+* Tweaked tutorial text so x - 3 + 0 does not return x + -3
+* Simplified the reduction logic for exponential expressions
+
